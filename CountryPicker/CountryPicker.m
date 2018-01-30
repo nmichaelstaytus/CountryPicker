@@ -234,6 +234,7 @@
         
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(35, 3, 245, 24)];
         label.backgroundColor = [UIColor clearColor];
+        label.textColor = self.labelTextColor;
         label.tag = 1;
         if (self.labelFont)
         {
